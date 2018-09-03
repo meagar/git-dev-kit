@@ -1,8 +1,8 @@
 require "test_helper"
 
-class Git::Dev::KitTest < Minitest::Test
+class GitDevKitTest < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::Git::Dev::Kit::VERSION
+    refute_nil ::GitDevKit::VERSION
   end
 
   def test_it_does_something_useful
